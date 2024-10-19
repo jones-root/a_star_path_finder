@@ -10,6 +10,10 @@ import javax.swing.*;
 
 public class Node extends JButton {
 
+		public Node(){
+			this.setOpaque(true);
+		}
+
     static public int clicks = 0;
     static public boolean rightMousePressed, leftMousePressed;
     private int x, y, nodeType;

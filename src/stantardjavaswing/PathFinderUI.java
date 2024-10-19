@@ -57,6 +57,8 @@ public class PathFinderUI extends Methods {
         font(xxsmallFont, 0, objs);
         resetAllBtn.setBackground(Color.pink);
         resetBtn.setBackground(new Color(100, 255, 100));
+				resetAllBtn.setOpaque(true);
+				resetBtn.setOpaque(true);
 
         fpsSlider.addChangeListener((e) -> {
             fpsLbl.setText("FPS: " + fpsSlider.getValue());
